@@ -1,0 +1,41 @@
+{
+  "rom": "\u4e2d\u56fd\u8c61\u68cb [TXC].nes",
+  "sha256": "f2a8aadfba05ed8566d3ec54285aca9ee2bb9408658e2a67f0cdea3aa1969f9b",
+  "prg_bytes": 32768,
+  "chr_bytes": 8192,
+  "engine_entry": "0x8597",
+  "tables": {
+    "square_mask": [
+      33120,
+      108
+    ],
+    "piece_mask": [
+      33226,
+      32
+    ],
+    "destination_mask": [
+      33258,
+      108
+    ],
+    "capture_delta_mask": [
+      33364,
+      256
+    ],
+    "delta_mask": [
+      33620,
+      256
+    ],
+    "step_table": [
+      33876,
+      256
+    ],
+    "direction_index": [
+      34783,
+      32
+    ],
+    "directions": [
+      34815,
+      32
+    ]
+  }
+}

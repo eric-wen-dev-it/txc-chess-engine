@@ -1,0 +1,19 @@
+# .NET build artifacts (comparison harness)
+comparison/bin/
+comparison/obj/
+*.user
+
+# Python
+tools/vendor/
+__pycache__/
+*.pyc
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vs/
+
+# ROM and emulator saves are never committed
+*.nes
+*.fcs
+*.sav

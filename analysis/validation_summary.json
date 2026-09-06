@@ -1,0 +1,50 @@
+{
+  "rom_sha256": "f2a8aadfba05ed8566d3ec54285aca9ee2bb9408658e2a67f0cdea3aa1969f9b",
+  "foundation": {
+    "positions": 100,
+    "pseudo_move_comparisons": 257400,
+    "ordered_move_lists": 100,
+    "evaluation_comparisons": 100,
+    "undo_round_trips": 100,
+    "seconds": 11.16
+  },
+  "search_cases": 210,
+  "edge_cases": 11,
+  "trace": {
+    "depth": 4,
+    "nodes": 18644,
+    "node_events": 37288,
+    "move_events": 21743,
+    "matched": true
+  },
+  "sha256": {
+    "README.md": "03322693b5e5fd54246b9e8ed049ae5f2409e6cda280f6210ef07bc1260855ad",
+    "build.ps1": "6684331a55d72bc3643f214ed149380f64d26412c94f285b3b941155fd23c3ff",
+    "CMakeLists.txt": "4a24edb6a79e19f3d37987d9abd61c761a94e3ae8269fab505148c5d54417d9c",
+    "txc.dll": "088ef4f74ac18f15df60e756a939c90aac7c19d96963a81eece97566083a4fc4",
+    "build/txc.exe": "8901ac75d2e7059ddac286476ddd33825c909006d2d233faf2fa42fbcb107dc9",
+    "src/main.c": "5e2a23e98af30f662cfe0cc8571c04466a23afb52725546ace520820ac1dc131",
+    "src/txc.h": "0d0627767230bc5de465497a2b9c9f28d857babf26e4f1df3c7ef7672f0cab09",
+    "src/txc_position.c": "d0e9aeb5a62cbc9a45963c1af7d53de2fb42c4bffcdfe099c385b284811ee5e4",
+    "src/txc_search.c": "e26e121b69bd580c41dc029a88507c42da7ec99346b3355f3e2691d9944ed6b8",
+    "src/txc_tables.h": "d213fca6faee7d64aba49407a7b6e3b6025d1753ae41ae2586848f90a1526304",
+    "tests/fixtures/empty_pv.json": "839f53b0382be9accca20b1ef15f704f6b0056a9fdb3a4ac68bd812a16a3b7e8",
+    "tests/fixtures/selective_recapture.json": "786ff9f70036c849b35508223755a13132adbc81bbd084d81c1b211c03315c1f",
+    "tools/analyze.py": "48c52b8a5eed417e530b3233dab6ac4ca9dc1ba8b97671e2e8263cbe2ed84ee7",
+    "tools/extract.py": "cfe4fdfed62758bc25e5d19dbe5911607198f3ef9beb861ed262ca63d9d8e3ec",
+    "tools/oracle.py": "b8c7c98431afa378237b0eefaec931173372f708dc1d746077d7dc2365b0d1bf",
+    "tools/test_differential.py": "c8679c03c383e76c0a9b0360f090df3ff492f1feeb5fa16cf3922a30933e5bb8",
+    "tools/test_search.py": "692c316a519b15308f9d1d2145f90c609b399b9714f7076b9bc506f0b62d95ec",
+    "tools/test_edge_cases.py": "be96408b23aaef954b86bf49fc51da4c9a85c660ce659549e95fa2b66bc83353",
+    "tools/trace_search.py": "59a3c964567f7d3663fbdd2676ad9ec08223f81de0d7472fa63d1cf0df1ac75a",
+    "tools/package.py": "1aabafd89f9fb800c167924baca18f903d86b1fb477d1074b7deb3ede45d5e8e",
+    "tools/requirements.txt": "f4ab4db9e465df8f129d7deb9fc028fc1b15cdf886fe8b0ab53fc906e1e9d9c8",
+    "analysis/manifest.json": "7d888c86525996e6946dc21e2a2206bc82b39d0a52f63dbd8afddc2f315884e0",
+    "analysis/engine.asm": "99a3113ef3494bc83a103428bf54d62730b6ab2450f3ebb80b9c38577ad489b1",
+    "analysis/engine_map.md": "ec0493e473457d5cd2fa6f4a642268c27a21e6cb742b5d5ef28fc2bd82bfe32d",
+    "analysis/differential.json": "6c4436d5157bf1805ec41bef20c4b09aff310c1bac41f23cecac948f856ee644",
+    "analysis/search_differential.json": "b62a3f04ec43eece793e98fbbb5f18005e9d82c10bc82779dcab31f586e67530",
+    "analysis/edge_differential.json": "51a09c7c8ca765bcfc59f54c97be438ede42ef5b1a89d84594453327ec2fb7ac",
+    "analysis/trace_differential.json": "06757758be26fd2087eb52d54afcc7ea92fa65ba609c149367abacffce33b581"
+  }
+}

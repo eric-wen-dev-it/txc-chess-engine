@@ -1,0 +1,108 @@
+[
+  {
+    "case": "initial",
+    "depth": 4,
+    "move": [
+      86,
+      50
+    ],
+    "score": 0,
+    "nodes": 18644
+  },
+  {
+    "case": "black_initial",
+    "depth": 3,
+    "move": [
+      91,
+      55
+    ],
+    "score": -10,
+    "nodes": 2761
+  },
+  {
+    "case": "rook_check",
+    "depth": 3,
+    "move": [
+      60,
+      49
+    ],
+    "score": 49,
+    "nodes": 41
+  },
+  {
+    "case": "cannon_screen",
+    "depth": 3,
+    "move": [
+      49,
+      53
+    ],
+    "score": -234,
+    "nodes": 184
+  },
+  {
+    "case": "horse_endgame",
+    "depth": 3,
+    "move": [
+      51,
+      41
+    ],
+    "score": 109,
+    "nodes": 297
+  },
+  {
+    "case": "king_capture",
+    "depth": 2,
+    "move": [
+      48,
+      57
+    ],
+    "score": 0,
+    "nodes": 0
+  },
+  {
+    "case": "missing_red",
+    "depth": 2,
+    "move": [
+      255,
+      255
+    ],
+    "score": -4,
+    "nodes": 0
+  },
+  {
+    "case": "missing_black",
+    "depth": 2,
+    "move": [
+      255,
+      255
+    ],
+    "score": 4,
+    "nodes": 0
+  },
+  {
+    "case": "selective_recapture_quirk",
+    "move": [
+      68,
+      91
+    ],
+    "score": -5,
+    "nodes": 391
+  },
+  {
+    "case": "empty_source_pv_quirk",
+    "move": [
+      37,
+      43
+    ],
+    "score": 223,
+    "nodes": 725
+  },
+  {
+    "case": "external_root_gate",
+    "move": [
+      48,
+      49
+    ],
+    "nodes": 0
+  }
+]

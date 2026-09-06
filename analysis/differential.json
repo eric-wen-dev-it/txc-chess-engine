@@ -1,0 +1,8 @@
+{
+  "positions": 100,
+  "pseudo_move_comparisons": 257400,
+  "ordered_move_lists": 100,
+  "evaluation_comparisons": 100,
+  "undo_round_trips": 100,
+  "seconds": 11.16
+}

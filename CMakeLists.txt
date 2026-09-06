@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(txc_chess C)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_library(txc_engine STATIC src/txc_position.c src/txc_search.c)
+target_include_directories(txc_engine PUBLIC src)
+add_executable(txc src/main.c)
+target_link_libraries(txc PRIVATE txc_engine)
