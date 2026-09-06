@@ -1,0 +1,7 @@
+# analysis/ 下的反汇编是逆向工程的"证据/文档",记录原 ROM 的行为,
+# 并非本项目源码;真正的交付物是 src/ 下的 C11 引擎。把反汇编标为
+# documentation、把生成的 trace/数据标为 generated,使其不计入 GitHub
+# 的语言统计,让 C 正确显示为主语言。
+analysis/*.asm   linguist-documentation
+analysis/*.csv   linguist-generated
+analysis/*.json  linguist-generated
